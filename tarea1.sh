@@ -2,28 +2,28 @@
 
  while true; do
 
-Var=${RANDOM:1:1} #Genera un número aleatorio
+	Var=${RANDOM:1:1} #Genera un numero aleatorio
 
 	#echo "$Var"
 	
-	echo "El sistema generó un número, crees poder adivinarlo?!"
+		echo "El sistema genero un numero, crees poder adivinarlo?!"
 
-    printf "Ingresa el Número y presiona ENTER: "  #Pide al usuario que ingrese un numero
+		printf "Ingresa el Número y presiona ENTER: "  #Pide al usuario que ingrese un numero
     
     
- read NUMERO
+		read NUMERO
 
  
- if [ "$NUMERO" == "$Var" ]; then #evalua si el numero ingresado es igual al generado de forma aleatoria
+ 	if [ "$NUMERO" == "$Var" ]; then #evalua si el numero ingresado es igual al generado de forma aleatoria
 
- 	echo "Acertaste!!"
+ 		echo "Acertaste!!"
  	
- exit
+ 	exit
 
- else
+ 	else
 
- 	echo "Intenta de nuevo"
+ 		echo "Intenta de nuevo"
 
- fi
+ 	fi
 
  done
