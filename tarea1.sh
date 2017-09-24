@@ -12,8 +12,7 @@ Var=${RANDOM:1:1} #Genera un número aleatorio
     
  read NUMERO
 
- 	#echo "$NUMERO"
-
+ 
  if [ "$NUMERO" == "$Var" ]; then #evalua si el numero ingresado es igual al generado de forma aleatoria
 
  	echo "Acertaste!!"
