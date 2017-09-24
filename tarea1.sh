@@ -8,7 +8,8 @@ Var=${RANDOM:1:1} #Genera un número aleatorio
 	
 	echo "El sistema generó un número, crees poder adivinarlo?!"
 
-    printf "Ingresa el Número: "  #Pide al usuario que ingrese un numero
+    printf "Ingresa el Número y presiona ENTER: "  #Pide al usuario que ingrese un numero
+    
     
  read NUMERO
 
