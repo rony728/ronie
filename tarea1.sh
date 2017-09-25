@@ -4,7 +4,7 @@
 
 	Var=${RANDOM:1:1} #Genera un numero aleatorio
 
-	#echo "$Var"
+		#echo "$Var"
 	
 		echo "El sistema genero un numero, crees poder adivinarlo?!"
 
