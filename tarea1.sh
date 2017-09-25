@@ -1,5 +1,12 @@
 #! /bin/sh
 
+# functions -- !
+
+# F(x) =
+
+#function
+
+
  while true; do
 
 	Var=${RANDOM:1:1} #Genera un numero aleatorio
