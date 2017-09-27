@@ -4,9 +4,10 @@ draw () {
 	for a in 6 7 8 9 10 11; do
 		for s in `seq $(( 11 - a ))`; do
 			printf "*"
-		done
-		for c in `seq $(( ))`; do
-			:;
+		
+	for b in 1 3 5 7 9 11; do
+		for c in `seq $(( b * 1 ))`; do
+			printf "*"
 		done
 		printf "\n"
 	done

@@ -1,2 +1,1 @@
 # ronie
-clase1
